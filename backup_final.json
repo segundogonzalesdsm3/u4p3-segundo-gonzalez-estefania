@@ -1,0 +1,235 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$3zwgh6KyVdnbqgIX8CYmlV$/ejY/VxdZjmRaRzuBq2iKrPE/5i5YhwVccR0GPeNiWc=",
+    "last_login": "2026-09-22T19:11:06.312Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-22T19:10:43.589Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$nv3N96fBlWqzN1BBOmgZXS$FoIM82/aTg+0eEJuPErCA0P+/1LwZASOo3DRNMfjwgg=",
+    "last_login": "2026-10-19T20:38:20.595Z",
+    "is_superuser": true,
+    "username": "segundo",
+    "first_name": "",
+    "last_name": "",
+    "email": "a25311047@uthermosillo.edu.mx",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-06T14:20:44.694Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$BBE1ZOCS2Kli7AX58LjCf7$Gf5sz+sE2uqUMhLobtkP2K2X9qyjbvhzbavfhA34S+g=",
+    "last_login": "2026-10-20T16:32:19.299Z",
+    "is_superuser": false,
+    "username": "prueba_local",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-19T19:14:13.553Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 1,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "sakdnalsd",
+    "descripcion": "fasfaskfj",
+    "precio": "12214.00",
+    "categoria": "asdad",
+    "creado_en": "2026-09-22T19:11:42.411Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 2,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "Practica",
+    "descripcion": "Practica",
+    "precio": "100.00",
+    "categoria": "varios",
+    "creado_en": "2026-10-06T14:28:47.138Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 3,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "el que no mande ayer",
+    "descripcion": "trabajo\r\nClase\r\ninternet\r\ntelefono\r\nguis",
+    "precio": "100.00",
+    "categoria": "varios",
+    "creado_en": "2026-10-06T18:38:45.814Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 4,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "dia de examen",
+    "descripcion": "guia\r\ncomputadora\r\ntermo\r\ncable\r\nmause",
+    "precio": "100.00",
+    "categoria": "varios",
+    "creado_en": "2026-10-06T18:40:22.202Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 5,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "alumnos",
+    "descripcion": "jorge\r\nalejandro\r\nruis\r\nsegundo\r\narturo",
+    "precio": "0.00",
+    "categoria": "varios",
+    "creado_en": "2026-10-06T18:41:51.438Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 6,
+  "fields": {
+    "propietario": [
+      "segundo"
+    ],
+    "titulo": "pum chulita",
+    "descripcion": "sufrir",
+    "precio": "1000.00",
+    "categoria": "prado",
+    "creado_en": "2026-10-13T16:49:59.577Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 8,
+  "fields": {
+    "propietario": [
+      "prueba_local"
+    ],
+    "titulo": "MI PRACTICA NUEVA",
+    "descripcion": "Hola mundo",
+    "precio": "1000.00",
+    "categoria": "practica",
+    "creado_en": "2026-10-19T19:16:49.190Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 9,
+  "fields": {
+    "propietario": [
+      "segundo"
+    ],
+    "titulo": "alumnos",
+    "descripcion": "HOLA",
+    "precio": "123145.00",
+    "categoria": "varios",
+    "creado_en": "2026-10-19T20:38:48.614Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 11,
+  "fields": {
+    "propietario": [
+      "prueba_local"
+    ],
+    "titulo": "La practica de hoy",
+    "descripcion": "Esta es una practica prueba del dia 20 de octubre del 2026",
+    "precio": "100.00",
+    "categoria": "practica",
+    "creado_en": "2026-10-20T15:32:26.562Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 12,
+  "fields": {
+    "propietario": [
+      "prueba_local"
+    ],
+    "titulo": "octubre 20",
+    "descripcion": "esta es una practica prueba",
+    "precio": "10000.00",
+    "categoria": "PradoDiaz",
+    "creado_en": "2026-10-20T15:33:38.914Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 13,
+  "fields": {
+    "propietario": [
+      "prueba_local"
+    ],
+    "titulo": "otoño",
+    "descripcion": "El cambio de estacion de septiembre a octubre",
+    "precio": "100.00",
+    "categoria": "octubre",
+    "creado_en": "2026-10-20T15:39:39.517Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 14,
+  "fields": {
+    "propietario": [
+      "prueba_local"
+    ],
+    "titulo": "prado diaz",
+    "descripcion": "practica de hoy",
+    "precio": "16564.00",
+    "categoria": "sistemas",
+    "creado_en": "2026-10-20T15:42:29.574Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 15,
+  "fields": {
+    "propietario": [
+      "prueba_local"
+    ],
+    "titulo": "aplicaciones web",
+    "descripcion": "esta categoria, es sobre la materia",
+    "precio": "-0.12",
+    "categoria": "sistemas",
+    "creado_en": "2026-10-20T15:44:35.344Z"
+  }
+}
+]
